@@ -28,9 +28,11 @@ CricketIQ is a cricket analytics dashboard built with Python, Pandas, and Stream
 
 ## Dataset
 
-The project processes ball-by-ball cricket data stored in the `data/` directory. The current dataset contains 1,243 dated match files spanning 2008–2026.
+CricketIQ processes ball-by-ball cricket data to calculate batting statistics. The original match files are not included in this repository.
 
-Statistics are calculated from the included data and may differ from official career records depending on dataset coverage and scoring conventions.
+The precomputed `player_stats.csv` file is included so users can run the dashboard without downloading and processing the full dataset.
+
+**Note:** To regenerate the statistics using `main.py`, place the required match CSV files inside the `data/` directory first. Statistics depend on the available data and the project's calculation conventions.
 
 ## Installation and Setup
 
