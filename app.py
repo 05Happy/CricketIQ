@@ -147,3 +147,28 @@ col4.metric("Matches Batted", f"{profile['Matches']:,.0f}")
 col5.metric("Balls Faced", f"{profile['Balls Faced']:,.0f}")
 col6.metric("Dismissals", f"{profile['Dismissals']:,.0f}")
 
+
+st.divider()
+
+st.header("ℹ️ About CricketIQ")
+
+st.write("""
+CricketIQ is a cricket analytics dashboard built using Python,
+Pandas, and Streamlit.
+
+It analyzes ball-by-ball cricket data to calculate player
+performance statistics and compare batters.
+
+**Features**
+- Player statistics and comparisons
+- Runs, batting average, and strike rate charts
+- Top-10 player leaderboard
+- Individual player profiles
+
+**Note:** Statistics are calculated from the included dataset.
+They may differ from official career records depending on
+the dataset's coverage and calculation conventions.
+""")
+
+st.caption("Built with Python 🐍 | Pandas | Streamlit")
+
